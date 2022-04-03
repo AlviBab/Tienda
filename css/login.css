@@ -1,0 +1,143 @@
+/* login */
+.main-login{
+    max-width: 120rem;
+    margin: 10rem auto;
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+ 
+}
+.main-login .imagen{
+   text-align: center;
+}
+.main-login .imagen img{
+    display: inline-block;
+    height: 400px;
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    border-radius: 5px;
+    
+}
+.wraper{
+    margin: 0 0 0 3rem ;
+    width:40rem ;
+    background-color: var(--blanco);
+    border-radius: .5rem;
+}
+
+@media (max-width:980px) {
+    .main-login{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    .main-login .imagen{
+        text-align: center;
+        grid-row: 2;
+    }
+    .main-login .imagen img{
+        width: 100%;  
+        margin: 0;
+    }
+    .wraper{
+        margin: 0 ;
+        width: 100%;
+    }
+}
+.wraper .title{
+    line-height: 8rem;
+    background-color: var(--primario);
+    padding-left: 2rem;
+    color: var(--blanco);
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+.wraper form{
+    padding: 30px 20px 25px 20px;
+}
+.wraper form .metodos-login {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 45px;  
+    margin-bottom: 1.5rem;
+}
+.wraper form .metodos-login button{
+    position: relative;
+    font-weight: 500;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    border-radius: .5rem;
+    background-color: rgba(64, 87, 109, 0.281);
+}
+.wraper form .metodos-login button:hover{
+    background-color: rgba(64, 87, 109, 0.212);
+    cursor: pointer;
+}
+.wraper form .metodos-login img{
+    position: absolute;
+    left: 1.5rem;
+    top: .8rem;
+}
+
+.wraper form .row{
+    position: relative;
+    height: 45px;  
+    margin-bottom: 1.5rem;
+}
+.wraper form .row input{
+    height: 100%; 
+    width: 100%;
+    padding-left: 6rem;
+    border-radius:5px ;
+    border: 1px solid lightgray;
+    font-size: 16px;
+}
+.wraper form .row  i{
+    position: absolute;
+    color: var(--blanco);
+    font-size: 18px;
+    width: 47px;
+    height: 100%;
+    background-color: var(--primario);
+    border: 1px solid var(--primario);
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wraper form .pass{
+    margin: -10px 0 15px 0;
+    font-size: 15px;
+}
+.wraper form .pass:hover{
+    text-decoration: underline;
+}
+
+
+.wraper form .buttom input{
+    padding-left: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--primario);
+    cursor: pointer;
+    color: var(--blanco);
+    cursor: pointer;
+   
+}
+.wraper form .buttom input:hover{
+    background-color:rgba(107, 87, 139, 0.842)
+}
+.wraper form .signup-link{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 15px;
+ }
+.wraper form .signup-link a:hover{
+    text-decoration: underline;
+}

@@ -1,51 +1,23 @@
+
 /* registro */
 .main-registro{
     max-width: 120rem;
     margin: 10rem auto;
     width: 90%;
     height: 100%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
+    
  
 }
-.main-registro .imagen{
-   text-align: center;
-}
-.main-registro .imagen img{
-    display: inline-block;
-    height: 400px;
-    width: 80%;
-    margin-top: 3rem;
-    margin-left: 10rem;
-    border-radius: 5px;
-    
-}
+
+
 .wraper{
-    margin: 0 0 0 3rem ;
-    width:40rem ;
+    margin:auto ;
+    width:50rem ;
     background-color: var(--blanco);
     border-radius: .5rem;
 }
 
-@media (max-width:980px) {
-    .main-registro{
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-    }
-    .main-registro .imagen{
-        text-align: center;
-        grid-row: 2;
-    }
-    .main-registro .imagen img{
-        width: 100%;  
-        margin: 0;
-    }
-    .wraper{
-        margin: 0 ;
-        width: 100%;
-    }
-}
+
 .wraper .title{
     line-height: 8rem;
     background-color: var(--primario);
@@ -89,13 +61,21 @@
     height: 45px;  
     margin-bottom: 1.5rem;
 }
-.wraper form .row input{
+.wraper form .row .cuenta__users{
     height: 100%; 
     width: 100%;
     padding-left: 6rem;
     border-radius:5px ;
     border: 1px solid lightgray;
     font-size: 16px;
+}
+.wraper form .row .datos__users{
+    height: 100%; 
+    width: 100%;
+    border-radius:5px ;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    padding-left: 2rem;
 }
 .wraper form .row  i{
     position: absolute;
@@ -121,13 +101,17 @@
 
 
 .wraper form .buttom input{
-    padding-left: 0px;
-    font-size: 18px;
+    height: 100%; 
+    width: 100%;
+  
+    border-radius:5px ;
+    border: 1px solid lightgray;
+    font-size: 16px;
     font-weight: 500;
     background-color: var(--primario);
     cursor: pointer;
     color: var(--blanco);
-    cursor: pointer;
+    
    
 }
 .wraper form .buttom input:hover{

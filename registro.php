@@ -51,7 +51,7 @@
     <main class="main-registro"><!--Cuerpo Principal-->
         <div class="wraper">
             <div class="title"><span>Registro Fande</span></div>
-            <form action="#">
+            <form action="php/registro_usuarios_be.php">
                 <div class="metodos-registro">
                     <button> <img src="asests/img/icono-google.png" width="22px"
                         height="22px" alt="icono de google"> Google</button>
@@ -61,31 +61,31 @@
                 </div>
                 <div class="row">
                
-                    <input id="nombres" class="datos__users"  type="text" placeholder="Nombres" required maxlength="30">
+                    <input name="nombres" class="datos__users"  type="text" placeholder="Nombres" required maxlength="30">
                 </div><!--EndRow-->
                 <div class="row">
                 
-                    <input id="apellidos" class="datos__users" type="text" placeholder="Apellidos" required maxlength="30">
+                    <input name="apellidos" class="datos__users" type="text" placeholder="Apellidos" required maxlength="30">
                 </div><!--EndRow-->
                 <div class="row">
     
-                    <input id="edad" class="datos__users" type="number" placeholder="Edad" required maxlength="3">
+                    <input name="edad" class="datos__users" type="number" placeholder="Edad" required maxlength="3">
                 </div><!--EndRow-->
                 <div class="row">
                     <i class="fas fa-user"></i>
-                    <input id="emailTelefono" class="cuenta__users" type="email" placeholder="Email o Telefono" required maxlength="30">
+                    <input name="emailTelefono" class="cuenta__users" type="email" placeholder="Email o Telefono" required maxlength="30">
                 </div><!--EndRow-->
                 <div class="row">
                     <i class="fas fa-lock"></i>
-                    <input id="contraseña" class="cuenta__users"  type="password" placeholder="Contraseña"  required maxlength="16">
+                    <input name="contrasena" class="cuenta__users"  type="password" placeholder="Contraseña"  required maxlength="16">
                 </div><!--EndRow-->
                 <div class="row">
                     <i class="fas fa-lock"></i>
-                    <input id="checkContraseña" class="cuenta__users" type="password" placeholder="Repita Contraseña"  required maxlength="16">
+                    <input name="checkContrasena" class="cuenta__users" type="password" placeholder="Repita Contraseña"  required maxlength="16">
                 </div><!--EndRow-->
                
                 <div class="row buttom">
-                    <input id="registrar" class="" type="submit" value="registro">
+                    <input name="registrar" class="" type="submit" value="registro">
                 </div><!--EndRow-->
                 <div class="signup-link">¿Ya estas registrado? <a class="color-primario" href="login.php">Inicia ahora</a></div>
             </form>

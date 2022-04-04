@@ -51,7 +51,7 @@
     <main class="main-registro"><!--Cuerpo Principal-->
         <div class="wraper">
             <div class="title"><span>Registro Fande</span></div>
-            <form action="php/registro_usuarios_be.php">
+            <form action="php/registro_usuarios_be.php" method="POST">
                 <div class="metodos-registro">
                     <button> <img src="asests/img/icono-google.png" width="22px"
                         height="22px" alt="icono de google"> Google</button>
@@ -78,10 +78,6 @@
                 <div class="row">
                     <i class="fas fa-lock"></i>
                     <input name="contrasena" class="cuenta__users"  type="password" placeholder="Contraseña"  required maxlength="16">
-                </div><!--EndRow-->
-                <div class="row">
-                    <i class="fas fa-lock"></i>
-                    <input name="checkContrasena" class="cuenta__users" type="password" placeholder="Repita Contraseña"  required maxlength="16">
                 </div><!--EndRow-->
                
                 <div class="row buttom">

@@ -23,7 +23,7 @@
     <div class="bg-header"><!--Cabecera de la pagina-->
         <header class="header " >
             <div class="logo">
-                <a href="index.html"><h1 class="no-margin no-padding">Shop</h1></a>
+                <a href="index.php"><h1 class="no-margin no-padding">Shop</h1></a>
             </div>
             <nav class="navegacion-principal">
                 <a href="#" class="navegacion-principal__items margin hover">Tienda</a>
@@ -73,7 +73,7 @@
                 <div class="row buttom">
                     <input type="submit" value="Login">
                 </div><!--EndRow-->
-                <div class="signup-link">¿No estas registrado? <a class="color-primario" href="registro.html">Registrate ahora</a></div>
+                <div class="signup-link">¿No estas registrado? <a class="color-primario" href="registro.php">Registrate ahora</a></div>
             </form>
         </div> 
     </main><!--EndMain-->

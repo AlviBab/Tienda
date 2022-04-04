@@ -17,7 +17,7 @@
     <div class="bg-header"><!--Cabecera de la pagina-->
         <header class="header " >
             <div class="logo">
-                <a href="index.html"><h1 class="no-margin no-padding">Shop</h1></a>
+                <a href="index.php"><h1 class="no-margin no-padding">Shop</h1></a>
             </div>
             <nav class="navegacion-principal">
                 <a href="#" class="navegacion-principal__items margin hover">Tienda</a>
@@ -29,13 +29,13 @@
                     <a href="#" class="navegacion-principal__items carrito "><i class="fa-solid fa-heart"></i></a>
                     <a href="#" class="navegacion-principal__items carrito "><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
-                <a href="login.html" class="navegacion-principal__items login">Log in <i class="fa-solid fa-user"></i></a>
+                <a href="login.php" class="navegacion-principal__items login">Log in <i class="fa-solid fa-user"></i></a>
             </nav>
             <div class="end-header ">
                     <a href="#" class="navegacion-principal__items carrito2 "><i class="fa-solid fa-location-dot"></i></a>
                     <a href="#" class="navegacion-principal__items carrito2 "><i class="fa-solid fa-heart"></i></a>
                     <a href="#" class="navegacion-principal__items carrito2 "><i class="fa-solid fa-cart-shopping"></i></a>
-                    <a href="login.html" class="navegacion-principal__items login2 "><i class="fa-solid fa-user"></i></a>
+                    <a href="login.php" class="navegacion-principal__items login2 "><i class="fa-solid fa-user"></i></a>
                     <i id="btnAbrir" class="fa-solid fa-bars barra"></i>
                  
             </div>

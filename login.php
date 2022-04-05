@@ -63,11 +63,11 @@
                 </div>
                 <div class="row">
                     <i class="fas fa-user"></i>
-                    <input type="email" placeholder="Email o Telefono" required maxlength="30">
+                    <input name="usuario"  type="email" placeholder="Email o Telefono" required maxlength="30">
                 </div><!--EndRow-->
                 <div class="row">
                     <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Contraseña"  required maxlength="16">
+                    <input name="contrasena" type="password" placeholder="Contraseña"  required maxlength="16">
                 </div><!--EndRow-->
                 <div class="pass"><a class="color-primario" href="#">¿Olvidaste la contraseña?</a></div>
                 <div class="row buttom">

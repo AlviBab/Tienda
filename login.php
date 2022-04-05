@@ -53,7 +53,7 @@
         </div>
         <div class="wraper">
             <div class="title"><span>Login Fande</span></div>
-            <form action="#">
+            <form action="php/login_usuarios_be.php" method = "POST" >
                 <div class="metodos-login">
                     <button> <img src="asests/img/icono-google.png" width="22px"
                         height="22px" alt="icono de google"> Google</button>

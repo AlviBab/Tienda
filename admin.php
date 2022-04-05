@@ -1,3 +1,18 @@
+<?php
+    session_start();
+
+    if (!isset($_SESSION['usuario'])) {
+        echo '
+        <script>
+            window.location = "login.php"
+            alert("Para entrar a este apartado debe estar autenticado")
+        </script>
+         '; 
+        session_destroy();
+        die();
+    }
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +22,7 @@
     <title>admin</title>
 </head>
 <body>
-    <h1>Bienvenido admin</h1>
+    <h1>Bienvenido admin  </h1>
+    <a href="php/cerrar_sesion.php">Cerrar Session</a>
 </body>
 </html>
